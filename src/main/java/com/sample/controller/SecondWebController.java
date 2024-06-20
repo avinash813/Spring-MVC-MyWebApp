@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //@RequestMapping("/controller2")
 public class SecondWebController {
 	
-	
 	@GetMapping("/home")
 	public String displayMessage(Model model)    // behind the scene spring injects the implementation of Model the implementing class is BindingAwareModelMap
 	{
